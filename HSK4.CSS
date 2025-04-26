@@ -118,3 +118,18 @@ button {
     padding: 5px 10px;
     cursor: pointer;
 }
+@media (min-width: 600px) {
+    .wordbank {
+        text-align: center;
+    }
+
+    #searchInput {
+        width: 60%;
+        margin: 0 auto 20px;
+    }
+
+    #wordTable {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
